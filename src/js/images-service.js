@@ -15,7 +15,7 @@ export default class ImagesApiService {
 
     const response = await axios.get(url, {
       params: {
-        key: '33045581-3a3af9a2074d1c4024adb3324',
+        key: '33469403-656c8c24e089f5eb60270e06d',
         q: this.searchQuery,
         image_type: 'photo',
         orientation: 'horizontal',

@@ -17,7 +17,7 @@ const loadMoreBtn = new LoadMoreBtn({
 
 const options = { captionsData: 'alt', captionDelay: 250 };
 
-var lightbox = new SimpleLightbox('.gallery a', options);
+const lightbox = new SimpleLightbox('.gallery a', options);
 
 const imagesApiService = new ImagesApiService();
 let countHits = 0;
@@ -121,7 +121,7 @@ function appendImagesMarkup(images) {
         </p>
       </div>
     </div>
-  </a>\n`
+  </a>`
     )
     .join('');
 
